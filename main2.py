@@ -1,7 +1,7 @@
 # -*- coding: cp1251 -*-
 from math import *
-a = float(input('Введите параметр а: '))
-x = float(input('Введите значение x: '))
+a = float(input(Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С…: '))
+x = float(input(Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ Сѓ: '))
 z1=sin(a)+cos(2*x-a)/(cos(a)-sin(2*x-a))
 print("{0:.2f} {1:.2f} {2:.4f}".format(a, x, z1))
 z2=1+sin(2*x)/(cos(2*x))
